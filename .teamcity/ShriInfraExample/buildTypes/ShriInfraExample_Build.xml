@@ -3,6 +3,9 @@
   <name>Build</name>
   <description />
   <settings>
+    <options>
+      <option name="artifactRules" value="build =&gt; build" />
+    </options>
     <disabled-settings>
       <setting-ref ref="RUNNER_9" />
     </disabled-settings>
