@@ -45,7 +45,7 @@ exit `expr \`/bin/sh print-timestamp.sh\` % 2`]]></param>
       </runner>
     </build-runners>
     <vcs-settings>
-      <vcs-entry-ref root-id="ShriInfraExample_HttpsGithubComTcUidevShriInfraExampleGitRefsHeadsMaster" />
+      <vcs-entry-ref root-id="ShriInfraExample_ShriInfraExampleGit" />
     </vcs-settings>
     <requirements>
       <starts-with id="RQ_4" name="env.AGENT_NAME" value="qloud.shri0" />
