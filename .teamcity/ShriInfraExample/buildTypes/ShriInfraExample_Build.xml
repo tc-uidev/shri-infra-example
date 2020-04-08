@@ -20,7 +20,9 @@ exit `expr \`/bin/sh print-timestamp.sh\` % 2`]]></param>
     <vcs-settings>
       <vcs-entry-ref root-id="ShriInfraExample_HttpsGithubComTcUidevShriInfraExampleGitRefsHeadsMaster" />
     </vcs-settings>
-    <requirements />
+    <requirements>
+      <exists id="RQ_3" name="parameter-1" />
+    </requirements>
     <build-triggers>
       <build-trigger id="vcsTrigger" type="vcsTrigger">
         <parameters>
