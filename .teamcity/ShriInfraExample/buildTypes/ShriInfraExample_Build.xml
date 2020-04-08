@@ -21,7 +21,7 @@ exit `expr \`/bin/sh print-timestamp.sh\` % 2`]]></param>
       </runner>
       <runner id="RUNNER_10" name="deps" type="simpleRunner">
         <parameters>
-          <param name="script.content" value="npm ci" />
+          <param name="script.content" value="npm i" />
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
         </parameters>
